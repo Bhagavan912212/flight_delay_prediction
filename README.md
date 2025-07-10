@@ -1,21 +1,21 @@
-# Flight Delay Prediction
+# ✈️ Flight Delay Prediction
 
-This project is a web application that predicts flight arrival delays using a machine learning model. It is designed to help travelers, airlines, and analysts estimate the likelihood and extent of flight delays based on flight details.
+A web application that predicts flight arrival delays using a machine learning model. This tool helps travelers, airlines, and analysts estimate the likelihood and extent of flight delays based on flight details.
 
 ---
 
-## Example Use Case
+## 🚀 Example Use Case
 
-**Suppose you are planning to travel from New York (JFK) to Los Angeles (LAX) on Delta Airlines, flight number 1234, scheduled to depart on July 15, 2025, at 10:30 AM.**  
+Suppose you are planning to travel from New York (JFK) to Los Angeles (LAX) on Delta Airlines, flight number 1234, scheduled to depart on **July 15, 2025, at 10:30 AM**.  
 You want to know if your flight is likely to be delayed and by how much.
 
-With this application, you can enter:
-- Origin Airport: JFK
-- Destination Airport: LAX
-- Airline: Delta
-- Flight Number: 1234
-- Date: 2025-07-15
-- Scheduled Departure Time: 10:30
+**With this application, you can enter:**
+- **Origin Airport:** JFK
+- **Destination Airport:** LAX
+- **Airline:** Delta
+- **Flight Number:** 1234
+- **Date:** 2025-07-15
+- **Scheduled Departure Time:** 10:30
 
 The app will process your input, use a trained machine learning model, and display a prediction such as:
 - **Predicted Delay:** 18 minutes
@@ -23,7 +23,7 @@ The app will process your input, use a trained machine learning model, and displ
 
 ---
 
-## How It Works
+## 🛠️ How It Works
 
 1. **User Input:** Enter flight details in the web form.
 2. **Prediction:** The app uses a machine learning model to estimate the delay.
@@ -31,7 +31,7 @@ The app will process your input, use a trained machine learning model, and displ
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 project/
@@ -57,7 +57,7 @@ project/
 
 ---
 
-## Getting Started
+## ⚡ Getting Started
 
 ### Prerequisites
 
@@ -69,7 +69,7 @@ project/
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/flight_delay_prediction.git
+    git clone git https://github.com/Bhagavan912212/flight_delay_prediction.git
     cd flight_delay_prediction
     ```
 
@@ -94,16 +94,16 @@ project/
 
 ---
 
-## Model Details
+## 📊 Model Details
 
-- The model is trained on historical flight data.
-- It uses features like year, month, day, flight number, airline, origin, destination, distance, and scheduled departure time.
+- Trained on historical flight data.
+- Uses features like year, month, day, flight number, airline, origin, destination, distance, and scheduled departure time.
 - Categorical features are encoded using label encoders.
-- The output is the predicted delay in minutes, categorized for clarity.
+- Output: Predicted delay in minutes, categorized for clarity.
 
 ---
 
-## Customization
+## 🧩 Customization
 
 - **Web Interface:** Modify HTML templates in `notebooks/templates/`.
 - **Model:** Retrain and replace `flight_delay_regressor.pkl` and update `label_encoders.pkl` as needed.
@@ -111,7 +111,6 @@ project/
 
 ---
 
-## License
+## 📄 License
 
 This project is for educational and demonstration purposes.
-
