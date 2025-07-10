@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Flight Delay Prediction
 
 This project is a web application that predicts flight arrival delays using a machine learning model. It is designed to help travelers, airlines, and analysts estimate the likelihood and extent of flight delays based on flight details.
@@ -115,3 +116,6 @@ project/
 
 This project is for educational and demonstration purposes.
 
+=======
+# flight_delay_prediction
+>>>>>>> 8f442d9c6248bafdd50da692bd90efad22cf2f8e
